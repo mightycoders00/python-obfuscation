@@ -2,15 +2,15 @@
 
 <p align="center">
   <b>Obfuscate Python code online, free — protect your source from casual reverse engineering, right in your browser.</b><br>
-  <a href="https://pyobfuscate.com"><b>🔒 Try the Python Obfuscator → pyobfuscate.com</b></a>
+  <a href="https://pyobfuscate.dev"><b>🔒 Try the Python Obfuscator → pyobfuscate.dev</b></a>
 </p>
 
 <p align="center">
-  <a href="https://pyobfuscate.com/tool/py-obfuscator">Obfuscator</a> ·
-  <a href="https://pyobfuscate.com/online-python-compiler">Online Compiler</a> ·
-  <a href="https://pyobfuscate.com/pyc-decompiler">.pyc Decompiler</a> ·
-  <a href="https://pyobfuscate.com/online-ruff-linter">Ruff Linter</a> ·
-  <a href="https://pyobfuscate.com/blog">Blog</a>
+  <a href="https://pyobfuscate.dev/tool/py-obfuscator">Obfuscator</a> ·
+  <a href="https://pyobfuscate.dev/online-python-compiler">Online Compiler</a> ·
+  <a href="https://pyobfuscate.dev/pyc-decompiler">.pyc Decompiler</a> ·
+  <a href="https://pyobfuscate.dev/online-ruff-linter">Ruff Linter</a> ·
+  <a href="https://pyobfuscate.dev/blog">Blog</a>
 </p>
 
 ---
@@ -20,7 +20,7 @@ Paste your Python, and it returns equivalent, runnable code that's hard for a hu
 tedious to reverse-engineer — no signup, no install, and nothing to configure. It's the fast way
 to **protect Python source code** before you share or ship it.
 
-> 👉 **Use it now:** **https://pyobfuscate.com**
+> 👉 **Use it now:** **https://pyobfuscate.dev**
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ to **protect Python source code** before you share or ship it.
 ## What is Pyobfuscate?
 
 Python ships as readable source. Send someone a `.py` file and they can read every line; even
-compiled `.pyc` bytecode [decompiles back to near-original code](https://pyobfuscate.com/blog/can-pyc-files-be-decompiled).
+compiled `.pyc` bytecode [decompiles back to near-original code](https://pyobfuscate.dev/blog/can-pyc-files-be-decompiled).
 **Pyobfuscate** rewrites your code at the syntax-tree level into an equivalent program that runs
 exactly the same but reveals almost nothing to a casual reader — variable names become
 meaningless, string literals no longer appear in plain text, and the structure is transformed so
@@ -46,7 +46,7 @@ it can't be skimmed.
 
 Everything runs on the site — **paste, click, copy**. Free, no account.
 
-**▶ Obfuscate your code:** **https://pyobfuscate.com/tool/py-obfuscator**
+**▶ Obfuscate your code:** **https://pyobfuscate.dev/tool/py-obfuscator**
 
 ## Sample: before & after
 
@@ -65,7 +65,7 @@ exactly the same thing — but the names are gone, the string is no longer reada
 is buried:
 
 ```python
-__obfuscated_by__ = 'https://pyobfuscate.com'
+__obfuscated_by__ = 'https://pyobfuscate.dev'
 lIIlIllIIlllII = IlIlllIIlIllII( ... )
 IIlllIlIIlllIl = lIIlIllIIlllII[ ... ]
 _ = 'Xk2$b9...<encrypted payload, hundreds of characters>...q7Fh1'
@@ -74,7 +74,7 @@ _ = 'Xk2$b9...<encrypted payload, hundreds of characters>...q7Fh1'
 ```
 
 > The real output is longer and fully self-contained. Try it on your own code:
-> **https://pyobfuscate.com/tool/py-obfuscator**
+> **https://pyobfuscate.dev/tool/py-obfuscator**
 
 ## Why obfuscate Python code?
 
@@ -95,7 +95,7 @@ _ = 'Xk2$b9...<encrypted payload, hundreds of characters>...q7Fh1'
 - 🔗 **Standalone result** — the obfuscated file runs on its own, with no runtime dependency to
   ship alongside it.
 
-**Try every option:** **https://pyobfuscate.com/tool/py-obfuscator**
+**Try every option:** **https://pyobfuscate.dev/tool/py-obfuscator**
 
 ## Free Python tools included
 
@@ -103,18 +103,18 @@ All browser-based and free — many run **100% client-side** (your code never le
 
 | Tool | What it does | Link |
 |---|---|---|
-| 🔒 **Python Obfuscator** | Protect & obfuscate Python source | https://pyobfuscate.com/tool/py-obfuscator |
-| 🐍 **Online Python Compiler** | Run Python 3.11–3.13 in the browser (with pip) | https://pyobfuscate.com/online-python-compiler |
-| 🔓 **.pyc Decompiler** | Decompile `.pyc` bytecode back to source | https://pyobfuscate.com/pyc-decompiler |
-| 🧬 **Bytecode Disassembler** | The `dis` module, online | https://pyobfuscate.com/python-bytecode-disassembler |
-| 🧹 **Ruff Linter & Formatter** | Lint + format with Ruff (WASM) | https://pyobfuscate.com/online-ruff-linter |
-| ▶️ **Ruff Playground** | Live Ruff editor (AST, tokens, IR) | https://pyobfuscate.com/ruff-playground |
-| 🎨 **Python Formatter** | Black / autopep8 / YAPF online | https://pyobfuscate.com/tool/py-formatter |
-| 🗜️ **Python Minifier** | Shrink Python code | https://pyobfuscate.com/tool/py-minifier |
-| 📦 **Marshal Encryptor** | Version-locked bytecode loader | https://pyobfuscate.com/marshal-encryption |
-| 📓 **Jupyter → Script** | Convert `.ipynb` to `.py` | https://pyobfuscate.com/tool/jupyter-to-script |
+| 🔒 **Python Obfuscator** | Protect & obfuscate Python source | https://pyobfuscate.dev/tool/py-obfuscator |
+| 🐍 **Online Python Compiler** | Run Python 3.11–3.13 in the browser (with pip) | https://pyobfuscate.dev/online-python-compiler |
+| 🔓 **.pyc Decompiler** | Decompile `.pyc` bytecode back to source | https://pyobfuscate.dev/pyc-decompiler |
+| 🧬 **Bytecode Disassembler** | The `dis` module, online | https://pyobfuscate.dev/python-bytecode-disassembler |
+| 🧹 **Ruff Linter & Formatter** | Lint + format with Ruff (WASM) | https://pyobfuscate.dev/online-ruff-linter |
+| ▶️ **Ruff Playground** | Live Ruff editor (AST, tokens, IR) | https://pyobfuscate.dev/ruff-playground |
+| 🎨 **Python Formatter** | Black / autopep8 / YAPF online | https://pyobfuscate.dev/tool/py-formatter |
+| 🗜️ **Python Minifier** | Shrink Python code | https://pyobfuscate.dev/tool/py-minifier |
+| 📦 **Marshal Encryptor** | Version-locked bytecode loader | https://pyobfuscate.dev/marshal-encryption |
+| 📓 **Jupyter → Script** | Convert `.ipynb` to `.py` | https://pyobfuscate.dev/tool/jupyter-to-script |
 
-**See all tools:** **https://pyobfuscate.com/tools**
+**See all tools:** **https://pyobfuscate.dev/tools**
 
 ## How it works
 
@@ -136,24 +136,24 @@ keep real secrets (API keys, tokens) **off the client** entirely — load them f
 environment. We say this plainly because it's true, and it's how you actually stay protected.
 
 Read the honest breakdowns:
-- [Can Python code be decompiled?](https://pyobfuscate.com/blog/can-python-code-be-decompiled)
-- [How to protect Python source code](https://pyobfuscate.com/blog/protect-python-source-code)
-- [Is Python obfuscation secure?](https://pyobfuscate.com/blog/is-python-obfuscation-secure)
+- [Can Python code be decompiled?](https://pyobfuscate.dev/blog/can-python-code-be-decompiled)
+- [How to protect Python source code](https://pyobfuscate.dev/blog/protect-python-source-code)
+- [Is Python obfuscation secure?](https://pyobfuscate.dev/blog/is-python-obfuscation-secure)
 
 ## Guides & articles
 
-Tested, honest write-ups from the [Pyobfuscate blog](https://pyobfuscate.com/blog):
+Tested, honest write-ups from the [Pyobfuscate blog](https://pyobfuscate.dev/blog):
 
-- [How to obfuscate Python code](https://pyobfuscate.com/blog/how-to-obfuscate-python-code)
-- [Can `.pyc` files be decompiled?](https://pyobfuscate.com/blog/can-pyc-files-be-decompiled)
-- [Does PyInstaller protect source code?](https://pyobfuscate.com/blog/does-pyinstaller-protect-python-source-code)
-- [PyArmor vs Nuitka vs Cython vs Pyobfuscate (tested)](https://pyobfuscate.com/blog/pyarmor-vs-nuitka-vs-cython-vs-pyobfuscate)
-- [Compile Python to `.pyd`/`.so` with Cython](https://pyobfuscate.com/blog/compile-python-to-pyd-so-cython)
+- [How to obfuscate Python code](https://pyobfuscate.dev/blog/how-to-obfuscate-python-code)
+- [Can `.pyc` files be decompiled?](https://pyobfuscate.dev/blog/can-pyc-files-be-decompiled)
+- [Does PyInstaller protect source code?](https://pyobfuscate.dev/blog/does-pyinstaller-protect-python-source-code)
+- [PyArmor vs Nuitka vs Cython vs Pyobfuscate (tested)](https://pyobfuscate.dev/blog/pyarmor-vs-nuitka-vs-cython-vs-pyobfuscate)
+- [Compile Python to `.pyd`/`.so` with Cython](https://pyobfuscate.dev/blog/compile-python-to-pyd-so-cython)
 
 ## FAQ
 
 **Is Pyobfuscate free?**
-Yes — free to use, no signup, no install. Just open [pyobfuscate.com](https://pyobfuscate.com).
+Yes — free to use, no signup, no install. Just open [pyobfuscate](https://pyobfuscate.dev).
 
 **Does it upload my code?**
 The obfuscator processes your code to return the protected output; several other tools (compiler,
@@ -165,25 +165,25 @@ original — just unreadable.
 
 **Can obfuscated Python be reversed?**
 Obfuscation raises the cost of reverse engineering; it doesn't make it impossible. See
-[can Python code be decompiled?](https://pyobfuscate.com/blog/can-python-code-be-decompiled) for the
+[can Python code be decompiled?](https://pyobfuscate.dev/blog/can-python-code-be-decompiled) for the
 honest limits.
 
 **How do I obfuscate a Python file online?**
-Open the [Python Obfuscator](https://pyobfuscate.com/tool/py-obfuscator), paste your code, click
+Open the [Python Obfuscator](https://pyobfuscate.dev/tool/py-obfuscator), paste your code, click
 obfuscate, and copy the result.
 
 ## Links
 
-- 🌐 **Website:** https://pyobfuscate.com
-- 🔒 **Python Obfuscator:** https://pyobfuscate.com/tool/py-obfuscator
-- 🧰 **All tools:** https://pyobfuscate.com/tools
-- 📝 **Blog & guides:** https://pyobfuscate.com/blog
+- 🌐 **Website:** https://pyobfuscate.dev
+- 🔒 **Python Obfuscator:** https://pyobfuscate.dev/tool/py-obfuscator
+- 🧰 **All tools:** https://pyobfuscate.dev/tools
+- 📝 **Blog & guides:** https://pyobfuscate.dev/blog
 
 ---
 
 <p align="center">
   <b>Protect your Python — free, in your browser.</b><br>
-  <a href="https://pyobfuscate.com"><b>pyobfuscate.com</b></a>
+  <a href="https://pyobfuscate"><b>pyobfuscate.dev</b></a>
 </p>
 
 <sub>Keywords: python obfuscator, python obfuscator online, obfuscate python code, online python
