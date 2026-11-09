@@ -1,16 +1,27 @@
-import math
-import hashlib
-import random
+from dataclasses import dataclass
+from typing import Iterable
 
-def summarize(words):
-    total = sum(len(w) for w in words)
-    longest = max(words, key=len)
-    sig = hashlib.md5("".join(words).encode()).hexdigest()
-    return total, longest, sig[:8]
+@dataclass
+class Product:
+    name: str
+    price: float
+    qty: int = 1
 
-random.seed(42)
-words = ["python", "obfuscate", "protect", "deploy"]
-count, longest, sig = summarize(words)
-print("sorted:", sorted(words))
-print("total:", count, "longest:", longest)
-print("sig:", sig, "| pi:", round(math.pi, 4), "| pick:", random.choice(words))
+def subtotal(items: Iterable[Product]) -> float:
+    return sum(p.price * p.qty for p in items)
+
+def apply_discount(amount: float, percent: float = 10.0) -> float:
+    rate: float = percent / 100
+    return round(amount * (1 - rate), 2)
+
+cart: list[Product] = [
+    Product("keyboard", 49.99, 2),
+    Product("mouse", 19.50),
+    Product("monitor", 199.00),
+]
+
+total: float = subtotal(cart)
+final: float = apply_discount(total, 15)
+print("items:", len(cart))
+print("subtotal:", round(total, 2))
+print("final:", final)
